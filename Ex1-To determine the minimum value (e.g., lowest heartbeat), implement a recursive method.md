@@ -5,9 +5,13 @@ To write a JAVA program To determine the minimum value (e.g., lowest heartbeat),
 
 ## Algorithm
 1.Read the number of elements n and input all n integers into an array arr.
+
 2.Start the recursive function getMin(arr, 0, n) to find the minimum element.
+
 3.Inside the recursive function, check if the current index i is the last index (i == n−1).If yes, return arr[i] as the minimum.
+
 4.Otherwise, recursively call getMin(arr, i+1, n) to find the minimum of the remaining elements.
+
 5.Compare the current element arr[i] with the minimum of the rest and return the smaller value.   
 
 ## Program:
